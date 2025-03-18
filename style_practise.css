@@ -1,29 +1,31 @@
-
-/* Write your CSS below, don't change the rules above. */
-*{
+/* Applies to all elements, aligning text to the center */
+* {
   text-align: center;
 }
 
-p{
-  color:red
+/* Targets all <p> (paragraph) elements and sets their text color to red */
+p {
+  color: red;
 }
 
-.note{
-  font-size: 20px
+/* Targets elements with the class "note" and increases their font size to 20px */
+.note {
+  font-size: 20px;
 }
 
-#id-selector-demo{
+/* Targets the element with the ID "id-selector-demo" and sets its text color to green */
+#id-selector-demo {
   color: green;
 }
 
-/* Attribute Selector: Styles <menu> elements that have draggable="true" */
+/* Attribute Selector: Targets <li> elements with a specific value attribute (value="4") and changes their text color to blue */
 li[value="4"] {
-  color: blue; /* Dark red text color */
+  color: blue; /* Blue text color */
 }
 
+/* Targets <ol> (ordered lists) and adjusts the margin and list styling */
 ol {
-  margin-left: -40px;
-  margin-top: -20px;
-  list-style-position: inside;
+  margin-left: -40px; /* Moves the list slightly to the left */
+  margin-top: -20px; /* Moves the list upwards */
+  list-style-position: inside; /* Places the list item markers inside the content */
 }
-
