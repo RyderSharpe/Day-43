@@ -1,11 +1,34 @@
 <!DOCTYPE html>
-<html lang="en"">
-<head>
-  <meta charset="UTF-8">
-  <title>External</title>
-  <link rel="stylesheet" href="style.css" /> <! the . means current directory
-</head>
-<body>
-  <h1>Style Me in green, with a background color of your choice.</h1>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>External</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="./style.css" /> 
+  </head>
+  <body>
+    <!-- h1: This element will be styled with a green text color and a background color -->
+    <h1>Style Me in green, with a background color of your choice.</h1>
+    
+    <!-- h2: Example of an Element Selector (Styled in CSS by selecting all h2 elements) -->
+    <h2>Element Selector</h2>
+    
+    <!-- Class Selector: Can be applied to multiple elements -->
+    <h2 class="class-text">Class Selector: Applied to many elements</h2>
+    <p class="class-text">Another example of Class Selector</p>
+    
+    <!-- ID Selector: Should only be applied to one unique element per page -->
+    <h2 id="main">Id Selector: This should only be applied to 1 element</h2>
+    
+    <p>
+      <!-- Attribute Selectors: Apply styles to elements based on attributes -->
+      <h3>Attribute Selectors:</h3>
+      <menu draggable="true">Drag me</menu> <!-- Styled using attribute selector -->
+      <menu draggable="false">Don't drag me</menu> <!-- No styling applied from CSS -->
+      <menu>Don't drag me</menu> <!-- No styling applied from CSS -->
+    </p>
+    
+    <!-- Universal Selector: Used to apply styles globally -->
+    <h3>Universal Selector</h3>
+  </body>
 </html>
