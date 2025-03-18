@@ -1,30 +1,29 @@
-/* CSS Code */
 
-/* Element Selector: Styles all <h1> elements */
-h1 {
-    background: rgb(238, 211, 248); /* Light purple background */
-    color: green; /* Green text color */
+/* Write your CSS below, don't change the rules above. */
+*{
+  text-align: center;
 }
 
-/* Element Selector: Styles all <h2> elements */
-h2 {
-    background: rgb(201, 244, 247); /* Light blue background */
+p{
+  color:red
 }
 
-/* Class Selector: Applies styles to elements with class="class-text" */
-.class-text {
-    background: rgb(212, 212, 245); /* Light purple background */
-    color: rgb(19, 1, 36); /* Dark blue text color */
+.note{
+  font-size: 20px
 }
 
-/* ID Selector: Styles the element with id="main" */
-#main {
-    color: red; /* Red text color */
+#id-selector-demo{
+  color: green;
 }
 
 /* Attribute Selector: Styles <menu> elements that have draggable="true" */
-menu[draggable="true"] {
-    color: crimson; /* Dark red text color */
-    font-weight: 700; /* Bold text */
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4); /* Adds a shadow effect */
+li[value="4"] {
+  color: blue; /* Dark red text color */
 }
+
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
